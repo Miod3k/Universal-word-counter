@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="f2" x="0" y="0" width="200%" height="200%">
+      <feOffset result="offOut" in="SourceGraphic" dx="20" dy="20" />
+      <feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+    </filter>
+  </defs>
+  <path d="M 214.985 0 C 372.393 0 500 111.929 500 250 C 500 388.071 372.393 500 214.985 500 C 129.19 500 52.253 466.751 0 414.142 C 8.52 415.173 17.222 415.707 26.067 415.707 C 130.402 415.707 214.985 341.516 214.985 250 C 214.985 158.484 130.402 84.293 26.067 84.293 C 17.222 84.293 8.52 84.825 0 85.858 C 52.253 33.249 129.19 0 214.985 0 Z" fill="#fffefe" stroke-width="0"/>
+</svg>

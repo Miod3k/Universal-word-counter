@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500;600&display=swap');
+body{background-image: url(background.png); font-family: 'Inconsolata'}
+textarea{border: none; outline: 0px solid gray; width: 55%; height: 40%; border-radius: 50px; text-align: center; font-size: 25px; resize: none; overflow: hidden; min-height: 50px; max-height: 700px; transition: 300ms ease; padding-left: 25px; padding-right: 25px; top: 50; margin-top: 30px}
+textarea:focus-visible{outline-width: 4px; transition: 30ms linear}
+h1{font-size: 50px; color: white; font-weight: 600;  -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none;}
+button{height: 50px; width: 200px; background-color: white; border: 0px; font-family: 'Inconsolata'; border-radius: 10px; font-size: 45px; letter-spacing: 2px; transition: 65ms linear; cursor: pointer; outline: 0px solid gray;}
+button:active{background-color: gray; transition: 65ms linear; color: white}
+button:focus-visible{outline-width: 4px; transition: 30ms linear}
+input[type=checkbox]{height: 30px; width: 30px; position: absolute; right: 15px; -webkit-appearance: none; -moz-appearance: none; background-color: white; border-radius: 20px; transition: 100ms linear; cursor: pointer; outline: 0px solid gray; outline-offset: 0px}
+input[type=checkbox]:checked{background-color: gray; transition: 100ms linear}
+input[type=checkbox]:focus-visible{outline-width: 4px; transition: 30ms linear}
+img, label{width: 50px; height: 50px; position: absolute; bottom: 10px; cursor: pointer; border-bottom: 3px solid rgba(0, 0, 0, 0); outline: 0px}
+img:focus-visible{border-color: gray; transition: ease-in-out 100ms}
+label[for=change-theme]{right: 10px}
+label[for=resize]{right: 75px}
+.checkbox-text{text-align: right; font-size: 30px; position: absolute; right: 60px; cursor: default}
+#size-setting{position: absolute; text-align: left; font-size: 30px; cursor: pointer; border-bottom: 3px solid rgba(0, 0, 0, 0); outline: 0px; bottom: 0}
+#size-setting:focus-visible{border-color: gray; transition: ease-in-out 100ms}
+#count_hyphens_check{top: 15px}
+#count_apostrophes_check{top: 65px}
+#no_spaces_check{top: 115px}
+#wordcount{margin-top: 0}

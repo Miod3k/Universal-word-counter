@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <path d="M 84.5 119.823 L 169 254.823 L 0 254.823 L 84.5 119.823 Z" style="fill: rgb(255, 255, 255); paint-order: fill; stroke: rgb(255, 255, 255);" transform="matrix(0.000001, -1, 1, 0.000001, -119.822998, 334.499817)" bx:shape="triangle 0 119.823 169 135 0.5 0 1@acb6bf7e" bx:origin="0 0"/>
+  <path d="M 84.5 119.823 L 169 254.823 L 0 254.823 L 84.5 119.823 Z" style="fill: rgb(255, 255, 255); paint-order: fill; stroke: rgb(255, 255, 255);" transform="matrix(-0.000001, -1, -1, 0.000001, 619.822998, 334.499817)" bx:shape="triangle 0 119.823 169 135 0.5 0 1@acb6bf7e" bx:origin="0 0"/>
+  <rect x="128.5" y="213.597" width="243" height="67.452" style="fill: rgb(255, 255, 255); paint-order: fill; stroke: rgb(255, 255, 255);" bx:origin="-0.489403 -3.166652"/>
+  <path d="M 84.5 119.823 L 169 254.823 L 0 254.823 L 84.5 119.823 Z" style="fill: rgb(255, 255, 255); paint-order: fill; stroke: rgb(255, 255, 255);" transform="matrix(1, 0.000001, -0.000001, 1, 165.500183, -119.822998)" bx:shape="triangle 0 119.823 169 135 0.5 0 1@acb6bf7e" bx:origin="0 0"/>
+  <path d="M 84.5 119.823 L 169 254.823 L 0 254.823 L 84.5 119.823 Z" style="fill: rgb(255, 255, 255); paint-order: fill; stroke: rgb(255, 255, 255);" transform="matrix(1, -0.000001, -0.000001, -1, 165.500183, 619.822998)" bx:shape="triangle 0 119.823 169 135 0.5 0 1@acb6bf7e" bx:origin="0 0"/>
+  <rect x="128.5" y="213.597" width="243" height="67.452" style="fill: rgb(255, 255, 255); paint-order: fill; stroke: rgb(255, 255, 255);" transform="matrix(0, 1, -1, 0, 500, 0.00001)" bx:origin="-0.489403 -3.166652"/>
+</svg>

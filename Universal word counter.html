@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Universal word counter</title>
+    <link id=style rel=stylesheet href="assets/light.css">
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/script.js"></script>
+  </head>
+  <body onload = "initialize()">
+    <h1 id='wordcount'>Universal word counter v2</h1>
+    <button onclick='count()' tabindex = "2">Count</button>
+    <h1 class="checkbox-text" style = "top: -5px">Count words with hyphens in them as seperate</h1>
+    <h1 class="checkbox-text" style = "top: 45px">Count words with apostrophes in them as two</h1>
+    <h1 class="checkbox-text" style = "top: 95px">Do not count spaces as characters</h1>
+    <input type="checkbox" id = "count_hyphens_check" tabindex = "3"/>
+    <input type="checkbox" id = "count_apostrophes_check"/ tabindex = "3">
+    <input type="checkbox" id = "no_spaces_check" tabindex = "3"/>
+    <input type="checkbox" hidden id = change-theme onclick = 'changeTheme()'/>
+    <label for="change-theme">
+      <img src="assets/moon.svg" title = "Toggle dark mode" tabindex = "0"/>
+    </label>
+    <input type="checkbox" hidden id = resize onclick = 'resize()'/>
+    <label for="resize">
+      <img src="assets/resize.svg" title = "Resize text area" tabindex = "0"/>
+    </label>
+    <h1 onclick = "sizeSetting()" id = "size-setting" tabindex = "0" title= "Font size">25px</h1>
+    <center>
+      <textarea id='txt' autofocus tabindex = "1"></textarea>
+    </center>
+  </body>
+</html>
